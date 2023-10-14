@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 150px;
+}
+.sidebar li{
+    width: 100%;
+    padding: 10px 10px;
+}
+.sidebar li:hover{
+    background-color: blue;
+}

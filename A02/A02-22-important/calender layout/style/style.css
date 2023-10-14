@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    counter-reset: days;
+}
+.days p::before{
+    counter-increment: days;
+    content: counter(days);
+    opacity: 0.5;
+}
+.title{
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.month{
+    background-color: rgb(2, 2, 146);
+    color: white;
+    position: relative;
+    top: 50px;
+    height: 150px;
+    width: 95%;
+    margin: auto;
+}
+.month h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.month h2{
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.month i{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    margin: 0 10px;
+}
+table{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+td{
+    margin:0 20px;
+    width: 10px;
+    height: 10px;
+}
+p:hover{
+    background-color: blue;
+    color: white;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.292);
+    opacity: 0.8;
+}
+.header td{
+    height: 30px;
+}

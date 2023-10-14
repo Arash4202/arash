@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+.opacity{
+    position: absolute;
+    background-color: white;
+    width: 650px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50% , -50%);
+    transform: translate(-50% , -50%);
+    opacity: 0.2;
+    border-radius: 10px;
+}
+.text{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50% , -50%);
+    transform: translate(-50% , -50%);
+    color: white;
+    text-align: center;
+}
+.text h1{
+    margin: 20px 0;
+}
+.text p{
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+}

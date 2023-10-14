@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    height: 50vh;
+    background-image: linear-gradient(rgb(0, 153, 255) , gray);
+}
+b{
+    position: absolute;
+    top: -50px;
+    opacity: 0.1;
+    font-size: 80px;
+    padding-left: 50px;
+    padding-top: 100px;
+    transition: 0.4s;
+}
+.container{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.container div{
+    position: absolute;
+    width: 330px;
+    height: 360px;
+    border-radius: 3px;
+}
+.box1{
+    position: absolute;
+    top: -120px;
+    background-image: linear-gradient(rgb(118, 117, 118) , rgb(105, 97, 108));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+.box1:hover{
+    background-image: linear-gradient(cyan , rgb(41, 102, 143));
+}
+.box1:hover .text{
+    color: white;
+}
+.box1:hover b{
+    opacity: 1; 
+    color: white;
+    top: -90px;
+}
+.box2{
+    position: absolute;
+    top: -120px;
+    left: 625px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+.box2:hover{
+    background-color: black;
+}
+.box2:hover .text{
+    color: white;
+}
+.box2:hover b{
+    opacity: 1; 
+    color: white;
+    top: -90px;
+}
+.box3{
+    position: absolute;
+    top: -120px;
+    left: 1250px;
+    background-image: linear-gradient(cyan , rgb(41, 102, 143));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+.box3:hover{
+    background-image: linear-gradient(rgb(118, 117, 118) , rgb(105, 97, 108));
+}
+.box3:hover .text{
+    color: white;
+}
+.box3:hover b{
+    opacity: 1; 
+    color: white;
+    top: -90px;
+}
+.text{
+    margin-top: 100px;
+    margin-left: 50px;
+    transition: 0.6s;
+}
+.text p{
+    width: 80%;
+}

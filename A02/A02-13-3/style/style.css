@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-image: url(/A02/A02-13-3/images/25563.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+h1{
+    color: white;
+    margin-top: 200px;
+    font-size: 500%;
+    margin-bottom: 0;
+}
+p{
+    font-size: 200%;
+    margin-top: 10px;
+    color: white;
+}
+input{
+    padding: 0 20px;
+    margin-top: 80px;
+}

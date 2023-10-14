@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        body
+   {
+       min-height: 100vh;
+       max-width: 800px;
+       margin: 0 auto;
+       padding: 1rem;
+       border-right: 1px solid #333;
+       border-left: 1px solid #333 ;
+   }
+   th , td , caption
+   {
+       border: 1px solid #333;
+       font-family: "Courier New", Courier, monospace ;
+       border-collapse: separate;
+       padding: 0.5rem;
+   }
+   </style>
+    <body>
+        <h1>My Contact Form</h1>
+        <form action="/action_page.php">
+            <fieldset>
+                <legend style="color: #fff;">Send Me A Message</legend>
+                <label class="info" for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+                <br><br>
+                <label class="info" for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="your Email">
+                <br><br>
+                <label class="info" for="message">Type your message:</label>
+                <br><br>
+                 <textarea name="message" id="message" cols="30" rows="10" placeholder="your message"></textarea>   
+            </fieldset>
+            <input class="button" type="submit" value="submit">
+            <input class="button" type="reset" value="reset">
+        </form>
+    </body>
+</html>

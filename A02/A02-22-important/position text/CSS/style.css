@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 40px;
+    position: relative;
+    background-color: gray;
+}
+.navbar ul{
+    height: 100%;
+    list-style-type: none;
+}
+.navbar li{
+    float: left;
+    height: 100%;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+}
+.navbar li:hover{
+    color: white;
+    background-color: black;
+}
+.navbar div{
+    line-height: 40px;
+    text-align: center;
+    width: 50px;
+    height: 100%;
+    background-color: rgb(9, 251, 142);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.lion{
+    position: relative;
+    height: 95vh;
+    background-image: url(../images/lion.jpg);
+    background-size: cover;
+}
+p{
+    font-size: 20px;
+}
+.Tleft{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Tright{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Bleft{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.Bright{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.center{
+    font-size: 40px;
+    color: rgb(5, 209, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50% , -50%);
+    transform: translate(-50% , -50%);
+}
+.cat{
+    background-image: url(../images/cat.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.cat div{
+    height: 200px;
+    background-color: gray;
+    text-align: center;
+    line-height: 200px;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    margin: 10px 10px;
+    height: 40px;
+    position: relative;
+    background-color: gray;
+}
+.navbar ul{
+    height: 100%;
+    list-style-type: none;
+}
+.navbar li{
+    float: left;
+    height: 100%;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+}
+.navbar li:hover{
+    color: white;
+    background-color: black;
+}
+.navbar div{
+    line-height: 40px;
+    text-align: center;
+    width: 50px;
+    height: 100%;
+    background-color: rgb(9, 251, 142);
+    position: absolute;
+    top: 0;
+    right: 0;
+}

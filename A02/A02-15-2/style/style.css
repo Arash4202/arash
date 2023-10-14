@@ -1,0 +1,25 @@
+@font-face{
+    font-family: 'arash';
+    src: url('../fonts/AmericanCaptain.eot');
+    src: url('../fonts/AmericanCaptain.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AmericanCaptain.woff2') format('woff2'),
+        url('../fonts/AmericanCaptain.woff') format('woff'),
+        url('../fonts/AmericanCaptain.ttf') format('truetype'),
+        url('../fonts/AmericanCaptain.svg#AmericanCaptain') format('svg');
+        /* transformed by Transfonter */
+}
+div{
+    border: 1px solid;
+    height: 500px;
+    width: 500px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 50px;
+    line-height: 400px;
+    font-family: arash;
+}

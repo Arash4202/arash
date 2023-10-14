@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to top right, rgb(80, 163, 163), rgb(95, 44, 95));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: Roboto;
+    
+}
+table{
+    margin: 150px  auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th , td{
+    color: white;
+    border: 1px solid rgb(65, 76, 126);
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+}
+th{
+    background-color: rgba(17, 45, 86, 0.63);
+}
+td{
+    background-color: rgba(123, 121, 121, 0.266);
+    font-weight: lighter;
+}
+td:hover{
+    background-image: linear-gradient( rgba(63, 136, 136, 0.633), rgb(95, 44, 95));
+}
+.data{
+    border: 1px solid  rgb(65, 76, 126);
+    width: 110px;
+}
+.data1{
+    width: 90px;
+}
+.thead1{
+    width: 150px;
+}

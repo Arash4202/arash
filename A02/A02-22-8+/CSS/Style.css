@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50% , 0);
+    transform: translate(-50% , 0);
+}
+li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(83, 83, 83, 0.202);
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 3px;
+    font-size: 20px;
+}
+li:hover{
+    background-color: rgba(0, 0, 0, 0.23);
+}
+.selected{
+    background-color: rgb(41, 166, 41);
+    color: white;
+}

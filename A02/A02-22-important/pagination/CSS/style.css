@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(84, 83, 83), rgb(63, 129, 129));
+    min-height: 100vh;
+}
+.pages{
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    background-color: rgba(221, 221, 221, 0.787);
+}
+.pages li{
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.pages li:hover{
+    background-color: #eee;
+}

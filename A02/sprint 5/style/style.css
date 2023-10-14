@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    min-height: 300vh;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar{
+    background-color: rgb(8, 64, 90);
+    position: sticky;
+    top: 0;
+    height: 50px;
+}
+.navbar i , input{
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 7px;
+}
+.navbar i{
+    font-size: 20px;
+    margin: 0 5px;
+    color: white;
+}
+.navbar input{
+    width: 300px;
+}
+.navbar a{
+    color: white;
+    padding: 14px;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    text-decoration: none; 
+}
+.navbar a:hover{
+    background-color: rgba(0, 0, 0, 0.443);
+}
+.title{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 200px;
+}
+.title h1{
+    font-size: 80px;
+    text-shadow: 7px 7px 10px rgba(255, 255, 255, 0.444);
+}
+.title p{
+    margin-top: 40px;
+    font-size: 20px;
+    background-color: rgba(23, 23, 104, 0.503);
+    border-bottom: 3px solid blue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.body{
+    height: 100vh;
+    position: relative;
+    top: 500px;
+}
+.row1 , .row2{
+    text-align: center;
+}
+.row1 .item{
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 50px;
+    border-bottom: 5px solid blue;
+    background-color: rgba(23, 23, 104, 0.503);
+    border-radius: 10px;
+    color: white;
+}
+.item i{
+    font-size: 100px;
+    position: relative;
+    top: 40px;
+    margin-bottom: 150px;
+}
+.item h3{
+    font-size: 30px;
+}
+.item:active{
+    border: none;
+    top: 105px;
+}
+.row2 .item{
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 50px;
+    border-bottom: 5px solid blue;
+    background-color: rgba(23, 23, 104, 0.503);
+    border-radius: 10px;
+    color: white;
+}
+.item:hover{
+    cursor: pointer;
+}
+.item:active{
+    border: none;
+
+    top: 105px;
+}
+.aboat{
+    margin: auto;
+    position: relative;
+    top: 700px;
+    width: 700px;
+	height: 400px;
+    background-color: rgba(23, 23, 104, 0.503);
+    border:  5px solid blue;
+    border-radius: 10px;
+    color: white;
+}
+.aboat h1{
+    position: relative;
+    right: 15px;
+    top: 15px;
+}
+.aboat p{
+    position: relative;
+    right: 15px;
+    top: 15px;
+    text-indent: 10px;
+    text-align: justify;
+    width: 650px;
+}
+.contact{
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(8, 27, 61);
+    box-shadow: inset 0 0 10px  rgba(255, 255, 255, 0.54);
+}
+.item2{
+    display: inline-block;
+    width: 200px;
+    font-size: 50px;
+    margin: 0 150px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.item2 i{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.54);
+}
+.item2 p{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.54);
+}

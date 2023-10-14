@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    position: absolute;
+    left: 0;
+    background-color: grey;
+    height: 100%;
+    width: 150px;
+}
+.sidebar a{
+    display: block;
+    margin: 15px 13px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.sidebar a:hover{
+    color: black;
+}
+.body{
+    width: 70%;
+    position: absolute;
+    left: 55%;
+    top: 100px;
+    -ms-transform: translate(-50% , 0);
+    transform: translate(-50% , 0);
+    text-align: center;
+}
+.body p{
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 19px;
+}

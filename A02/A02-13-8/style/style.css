@@ -1,0 +1,33 @@
+html{
+    background-image: url(../image/53931.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.waterfall{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 500px;
+    font-size: 500%;
+    margin-left: 450px;
+    margin-top: 90px;
+}
+.angel{
+    font-size: 300%;
+    text-align: center;
+}
+.more{
+    background-image: linear-gradient(rgb(255, 34, 0) , yellow);
+    width: 170px;
+    height: 30px;
+    border: 1px solid white;
+    margin: auto;
+    border-radius: 7px;
+    text-align: center;
+}
+.more p{
+    margin: 0;
+    font-size: 22px;
+}

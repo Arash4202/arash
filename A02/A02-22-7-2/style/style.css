@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(cyan , red);
+    min-height: 100vh;
+}
+.main{
+    height: 80px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    margin: 0;
+}
+.box1{
+    float: left;
+    margin: 0;
+    background-color: black;
+    height: 100%;
+    width: 34%;
+    color: white;
+}
+.box2{
+    margin: 0;
+    background-color: blue;
+    height: 100%;
+    width: 34%;
+    float: left;
+}
+p{
+    position: relative;
+    top: 26px;
+    left: 45%;
+}
+.box3{
+    float: left;
+    background-color: yellow;
+    height: 100%;
+    width: 32%;
+    margin: 0;
+    
+}
+img{
+    width: 49%;
+    height: 50vh;
+}
+.image{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.cat{
+    float: right;
+    position: relative;
+}

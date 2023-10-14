@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    padding-top: 60px;
+    color: white;
+    font-size: 20px;
+}
+.bg1{
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/night.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg2{
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/sea.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg3{
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/waterfall.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.night{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient( rgb(32, 35, 66) , rgb(146, 0, 133));
+}
+.sea{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient( rgb(6, 65, 243) , rgb(15, 124, 7));
+}
+.watterfall{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient( rgb(6, 159, 255) , rgb(234, 9, 9));
+}
+/* .mark1{
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(28, 46, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50% , -50%);
+    transform: translate(-50% , -50%); 
+}
+.mark2{
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(28, 46, 255);
+  
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50% , -50%);
+    transform: translate(-50% , -50%); 
+} */

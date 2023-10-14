@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: linear-gradient(cyan , rgb(225, 67, 99));
+    min-height: 150vh;
+    background-attachment: fixed;
+}
+.container1{
+    max-width: 1400px;
+    height: 300px; 
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    border: 1px solid white;
+}
+.container1 .sea1{
+    background-image: url(../images/sea.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    height: 100px;
+    width: 85%;
+    top: 0;
+    left: 0;
+}
+.container1 .sea2{
+    position: absolute;
+    height: 50px;
+    width: 50%;
+    left: 25%;
+    top: 107px;
+    background-image: url(../images/sea.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+.container1 .sea3{
+    position: absolute;
+    height: 135px;
+    background-image: url(../images/sea.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    width: 75%;
+    bottom: 0;
+    left: 10%;
+}
+.container2{
+    max-width: 1400px;
+    height: 350px; 
+    margin: auto;
+    position: relative;
+    top: 100px;
+    border: 1px solid white;
+}
+.boat1{
+    width: 800px;
+    height: 99%;
+    position: absolute;
+    border: 3px solid white;
+    bottom: 1px;
+    right: 302px;
+    background-image: url(../images/boat.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover; 
+}
+.boat2{
+    width: 300px;
+    height: 250px;
+    border: 3px solid white;
+    position: absolute;
+    background-image: url(../images/boat.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover; 
+    bottom: 1px;
+    right: 1px;
+}
+.boat3{
+    width: 294px;
+    height: 150px;
+    border: 3px solid white;
+    position: absolute;
+    background-image: url(../images/boat.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover; 
+    bottom: 1px;
+    left: 1px;
+}
+.container3{
+    max-width: 1400px;
+    height: 300px; 
+    margin: auto;
+    position: relative;
+    top: 150px;
+    border: 1px solid white;
+}
+.container3 .cat{
+    position: relative;
+    top: 10px;
+    margin: auto;
+    width: 250px;
+    background-image: url(../images/cat.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 0;
+}
+.container3 .dog{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dog.jpg);
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+.cat:hover div{
+    display: block;
+}
+h1{
+    position: relative;
+    top: 35%;
+    color: yellow;
+    font-size: 40px;
+}

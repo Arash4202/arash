@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(30, 37, 67), black);
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.title{
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.header{
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.header h2{
+    text-align: center;
+    line-height: 50px;
+}
+.body p{
+    color: white;
+    margin: 15px;
+}

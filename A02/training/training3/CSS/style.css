@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown:hover .drop-content{
+    transition: 3s;
+    display: block;
+}
+.dropdown:hover .tutorial{
+    background-color:  rgb(238, 188, 205);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px black;
+}
+.main{
+    position: relative;
+    margin: auto;
+    top: 20px;
+    width: 700px;
+    height: 50px;
+    background-color: rgb(106, 56, 152);
+    border-radius: 10px;
+}
+.tutorial{
+    margin: 5px 15px;
+    padding: 10px;
+    float: left;
+    height: 40px;
+    color: rgb(238, 188, 205);
+    font-weight: bold;
+}
+.tutorial:hover + .drop-content{
+    transition: 0.5s;
+    visibility: visible;
+    display: inline-block;
+}
+.navbar div{
+    margin: 5px 15px;
+    padding: 10px;
+    float: left;
+    height: 40px;
+    color: rgb(238, 188, 205);
+    font-weight: bold;
+}
+.main div:hover{
+    background-color:  rgb(238, 188, 205);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px black;
+}
+.main .home{
+    background-color:  rgb(238, 188, 205);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px black;
+}
+.drop-content{
+    display: none;
+    position: absolute;
+    top: 43px;
+    left: 15%;
+    border-radius: 10px;
+    width: 150px;
+    min-height: 310px;
+    background-image: linear-gradient(rgb(228, 228, 228), gray);
+}
+.drop-content div{
+    list-style-type: none;
+    height: 40px;
+    width: 100%;
+    color: black;
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.drop-content div:hover{
+    transition: 0.5s;
+    background-color: rgb(106, 56, 152);
+    color: rgb(238, 188, 205);
+    box-shadow: 0 2px 4px black;
+}
+.sidenav-content{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    background-color: #ccc;
+    width: 120px;
+    min-height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px black;
+}
+.sidenav-content div{
+    width: 85%;
+    margin: 3px 5px;
+}
+.sidenav:hover + .sidenav-content{
+    transition: 3s;
+    display: block;
+}
+.dropdown2 .drop-content{
+    left: 30%;
+    min-height: 120px;
+}
+.dropdown2:hover  .drop-content{
+    display: block;
+}

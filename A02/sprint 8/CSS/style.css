@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+}
+body{
+    background-color: black;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #555;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 20px;
+}
+.navbar{
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+.title{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+.logo{
+    width: 50px;
+    position: absolute;
+    top: 18px;
+    right: 105px;
+}
+.search{
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    left: 52%;
+    top: 25px;
+    -ms-transform: translate(-50% , 0);
+    transform: translate(-50% , 0);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #333;
+    border: none;
+    padding-left: 8px;
+}
+.searchIcon{
+    width: 50px;
+    height: 40px;
+    background-color: #555;
+    position: absolute;
+    left: 38.6%;
+    top: 25px;
+    -ms-transform: translate(-50% , 0);
+    transform: translate(-50% , 0);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.tooltip{
+    opacity: 0.8;
+    visibility: hidden;
+    width: 80px;
+    height: 30px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    left: 30px;
+    top: 55px;
+    -ms-transform: translate(-50% , 0);
+    transform: translate(-50% , 0);
+    border-radius: 7px;
+}
+.tooltip::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -7px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent #333   transparent;
+}
+.searchIcon:hover .tooltip{
+    visibility: visible;
+}
+.mic{
+    width: 50px;
+    height: 50px;
+    background-color: #555;
+    position: absolute;
+    left: 35.5%;
+    top: 20px;
+    -ms-transform: translate(-50% , 0);
+    transform: translate(-50% , 0);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.mic:hover{
+    background-color: #666;
+}
+.icons{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+}
+.icons i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.icons i:hover{
+    color: red;
+}
+.video{
+    position: absolute;
+    width: 1300px;
+    height: 900px;
+    right: 80px;
+    top: 100px;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.videoTitle{
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.786) , rgba(60, 60, 60, 0.753));
+    width: 100%;
+    height: 70px;
+    top: 100px;
+}
+.videoTitle h3{
+    float: right;
+    line-height: 70px;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.videoTitle i{
+    color: white;
+    line-height: 70px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.video:hover .videoTitle{
+    display: block;
+}
+.container{
+    height: 1200px;
+    position: relative;
+    left: 10px;
+    top: 100px;
+    width: 500px;
+    color: white;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.sidebar{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.menu{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.menu img{
+    width: 200px;
+    height: 130px;
+    position: relative;
+    margin-left: 290px;
+    border-radius: 10px;
+}
+.menu h4{
+    font-size: 20px;
+    position: absolute;
+    right: 210px;
+    top: 30px;
+}
+.time{
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    width: 40px;
+    height: 25px;
+    line-height: 25px;
+}
+.view{
+    position: absolute;
+    top: 80px;
+    right: 210px;
+    color: #888;
+}
+.menuHover{
+    display: none;
+    width: 200px;
+    height: 130px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 10px;
+}
+.menuHover i{
+    display: block;
+    margin-top: 11px;
+    margin-left: 20px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.439);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.play i{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    -ms-transform: translate(-50% , -50%);
+    transform: translate(-50% , -50%);
+    background: none;
+    font-size: 50px;
+}
+.menu:hover .menuHover{
+    display: block;
+}
+.buttons{
+    color: white;
+    position: absolute;
+    top: 1020px;
+    left: 33%;
+}
+.buttons i{
+    margin-left: 12px;
+    font-size: 30px;
+    background-color: rgba(85, 85, 85, 0.407);
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px; 
+    cursor: pointer;  
+}
+.buttons i:hover{
+    background-color: rgba(136, 136, 136, 0.404);
+    color: red;
+}
+.desc{
+    cursor: pointer;
+    position: absolute;
+    width: 1300px;
+    height: 200px;
+    right: 80px;
+    top: 1100px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(85, 85, 85, 0.407);
+    text-align: right; 
+}
+.desc img{
+    width: 60px;
+    height: 60px;
+    float: right;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.desc h2{
+    margin-top: 25px;
+}
+.desc2{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    font-size: 30px;
+}
+button{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.desc:hover{
+    background-color: rgba(136, 136, 136, 0.404);
+}

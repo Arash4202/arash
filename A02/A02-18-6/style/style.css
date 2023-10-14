@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: linear-gradient(rgb(2, 2, 26),blue);
+    width: 100%;
+    height: 100%;
+}
+.visible{
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(to right, purple,red);
+    position: absolute;
+    top: 100px;
+    left: 42%;
+    text-align: center;
+    border: 1px solid white;
+}
+.visible i{
+    font-size: 150px;
+    padding: 20px;
+}
+.visible h1{
+    font-family: Roboto Mono;
+    font-weight: lighter;
+    padding-top: 15px;
+    color: rgb(246, 178, 4);
+}
+.invisible{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    top: 100px;
+    display: none;
+    position: absolute;
+    top: 350px;
+    left: 42%;   
+
+}
+.invisible p{
+    font-family: Pacifico;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+}
+.visible:hover{
+    top: 20px;
+}
+.visible:hover + .invisible{
+    display: block;
+    top: 270px;
+}

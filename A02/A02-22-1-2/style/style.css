@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.visibility{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    visibility: visible;
+}
+.display{
+    width: 100%;
+    height: 300px;
+    background-color: crimson;
+    display: block;
+}
+.hover1{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+}
+.hover1:hover + .visibility{
+    visibility: hidden;
+}
+.hover2{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+}
+.hover2:hover +.display{
+    display: none;
+}
+.test{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(88, 32, 221);
+}

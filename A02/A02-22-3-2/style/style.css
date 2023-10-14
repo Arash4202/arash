@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(cyan , rgb(255, 0, 51));
+    min-height: 100vh;
+}
+.first{
+    max-width: 95%;
+    background-color: black;
+    height: 50px;
+    margin: auto;
+}
+.second{
+    max-width: 50%;
+    background-color: black;
+    height: 30px;
+    margin: 10px auto;
+}
+.third{
+    max-width: 40%;
+    background-color: black;
+    height: 60px;
+    margin: auto;
+}

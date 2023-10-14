@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.outside{
+    width: 300px;
+    height: 400px;
+    border: 10px solid yellow;
+}
+.container{
+    height: 380px;
+    border: 15px solid rgb(0, 0, 78);
+}
+.main{
+    height: 350px;
+    border: 20px solid cyan;
+}
+h1{
+    text-align: center;
+}
+

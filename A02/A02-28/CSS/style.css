@@ -1,0 +1,47 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50% , -50%);
+    transform: translate(-50% , -50%);
+    width: 350px;
+    height: 550px;
+    background-color: rgba(35, 35, 71, 0.79);
+    border-radius: 10px;
+    color: white;
+}
+h1{
+    margin-top: 40px;
+    margin-left: 10%;
+}
+h4{
+    margin-top: 7px;
+    margin-left: 10%;
+}
+input{
+    width: 80%;
+    height: 50px;
+    position: relative;
+    left: 10%;
+    margin-top: 40px;
+}
+input[type=text] , input[type=password]{
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.102);
+    border: none;
+    border-radius: 10px;
+}
+input[type=submit]{
+   background-color: rgb(0, 126, 211);
+   color: white;
+   border-radius: 10px;
+}
