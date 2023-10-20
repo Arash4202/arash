@@ -8,7 +8,7 @@ body{
 .days p::before{
     counter-increment: days;
     content: counter(days);
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .title{
     position: absolute;
