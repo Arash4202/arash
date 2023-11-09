@@ -1,0 +1,13 @@
+.container{
+    width: 550px;
+    padding: 5px;
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Item{
+    width: 150px;
+    height: 100px;
+    background-color: gray;
+    margin: 01px;
+}

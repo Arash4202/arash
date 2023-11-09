@@ -1,0 +1,14 @@
+.container{
+    width: 550px;
+    height: 550px;
+    padding: 5px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.Item{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+}
