@@ -5,11 +5,10 @@
     border: 2px solid;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: stretch;
 }
 .Item{
     width: 100px;
-    height: 100px;
     background-color: gray;
     margin: 3px;
 }
