@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to right , rgb(0, 200, 255) , rgb(6, 114, 238));
+    align-items: center;
+    justify-content: center;
+}
+.item1{
+    grid-column: 1 / span 1;
+    grid-row: 1;
+    background-color: black;
+}
+.item2{
+    grid-column: 2 / span 1;
+    grid-row: 1;
+    background-color: rgb(0, 174, 255);
+}
+.item3{ 
+    grid-column: 3 / span 1;
+    grid-row: 1;
+    background-color: rgb(10, 228, 177);
+}
+.item4{
+    grid-column: 4 / span 1;
+    grid-row: 1;
+    background-color: black;
+}
+.item5{
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 2;
+    grid-area: 'item5';
+    background-color: rgb(107, 101, 142);
+}
+.item6{
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 1;
+    background-color: black;
+}
+.item7{
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 2;
+    background-color: rgb(107, 101, 142);
+}
+.item8{
+    grid-column: 2 /span 1;
+    grid-row: 3 /span 1;
+    background-color: rgb(0, 174, 255);
+}
+.item9{
+    grid-column: 3 /span 1;
+    grid-row: 3 /span 1;
+    background-color: rgb(10, 228, 177);
+}
+p{
+    width: 80%;
+    text-align: justify;
+}
+h1{
+    text-align: left;
+}
+.grid-container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container{
+    width: 75%;
+    height: 65%;
+    display: grid;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
