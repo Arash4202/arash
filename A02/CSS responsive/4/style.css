@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+.grid-container{
+    width: 50%;
+    min-height: 100vh;
+    background-image: url(image/gojo.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
+}
+.grid-container div{
+    text-align: center;
+    color: white;
+    background-color: rgb(1, 1, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.name{
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 1;
+    height: 100%;
+    align-self: flex-start;
+}
+.japanese{
+    height: 100%;
+    grid-column: 6 / span 5;
+    grid-row: 2 / span 1;
+}
+.first-pic{
+    background-image: url(image/jujutsu.jpg);
+    height: 100%;
+    background-position: left;
+    background-size: cover;
+    grid-column: 3 / span 3 ;
+    grid-row: 3 / span 1;
+}
+.desc{
+    text-align: justify;
+    height: 100%;
+    grid-column: 1 / span 12;
+    grid-row: 4 / span 1;
+}
+.second-pic{
+    height: 100%;
+    grid-column: 1 / span 3;
+    grid-row: 5 / span 1;
+    background-image: url(image/17668-jujutsu-kaisen.jpg);
+    background-size: cover;
+}
+.color{
+    height: 100%;
+    grid-column: 7 / span 4;
+    grid-row: 6 / span 1;
+}
+.third-pic{
+    background-image: url(image/image_2022_02_25_100730.jpg);
+    background-size: cover; 
+    height: 100%;
+    grid-column: 1 / span 2;
+    grid-row: 7 / span 1;
+}
+.tokyo{
+    height: 100%;
+    grid-column: 1 / span 4;
+    grid-row: 8 / span 1;
+}
