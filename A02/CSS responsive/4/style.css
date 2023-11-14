@@ -17,7 +17,7 @@ body{
     background-size: cover;
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px;
 }
 .grid-container div{
     text-align: center;
@@ -78,4 +78,9 @@ body{
     height: 100%;
     grid-column: 1 / span 4;
     grid-row: 8 / span 1;
+}
+.appreance{
+    grid-column: 7 / span 4;
+    grid-row: 9;
+    font-size: 14px;
 }
