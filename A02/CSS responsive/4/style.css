@@ -35,7 +35,7 @@ body{
     align-self: flex-start;
 }
 .japanese{
-    letter-spacing: 15px;
+    letter-spacing: 4px;
     height: 100%;
     grid-column: 6 / span 5;
     grid-row: 2 / span 1;
@@ -80,7 +80,7 @@ body{
     grid-row: 8 / span 1;
 }
 .appreance{
-    grid-column: 7 / span 4;
+    grid-column: 6 / span 5;
     grid-row: 9;
     font-size: 14px;
 }
